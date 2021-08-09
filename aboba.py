@@ -12,14 +12,14 @@ while True:
         a = name
     else:
         continue
-if count == 10:
-    cont = input("Продолжаем?(Да или Нет)")
-    if cont == "Нет":
-        print("Конец!")
-        break
-    elif cont == "Да":
-        continue
-    else:
-        print("Error!")
-        break
+    if count == 10:
+        cont = input("Продолжаем?(Да или Нет)")
+        if cont == "Нет":
+            print("Конец!")
+            break
+        elif cont == "Да":
+            continue
+        else:
+            print("Error!")
+            break
 print("aboba!")
